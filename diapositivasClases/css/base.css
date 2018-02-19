@@ -1,0 +1,13 @@
+body {
+	background-color: rgba(204, 0, 0,0.7);
+}
+
+hr {
+	background-color: rgb(255, 255, 255);
+}
+
+section {
+	background-color: rgb(255, 255, 255);
+	border-radius: 15px 15px;	
+	box-shadow: rgb(0,0,0) 5px 5px 10px; 
+}

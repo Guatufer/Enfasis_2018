@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Enfasis | Clase 8</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1 class="display-1 text-center">Entendiendo CSS</h1><hr>
+		</header>		
+	</div>
+	
+	<div class="container">
+		<section>
+			<h2 class="display-3">CSS</h2>
+			<p>
+				<dfn>Cascading Style sheets(CSS).</dfn> Lenguaje para definir estilos aplicados a un documento HTML.
+				<ul>
+					<li>W3C (World Wide Web Consortium). Estructura y escribe las especificaciones.</li>
+					<li>Rol de CSS. Separar la estructura (HTML) de la presentación.</li>
+					<li>Los navegadores Firefox, Chrome, Safari y Opera son los más avanzados en el soporte de CSS.<br>
+					<img src="http://cv.uoc.edu/web/~afortru/Practicas/Practica2/imatges/tabla3.jpg"></li>
+					<li><a href="https://www.w3.org/blog/CSS/" target="blank">https://www.w3.org/blog/CSS/</a></li>
+				</ul>
+			</p>
+
+		</section>
+		<section>
+			<h2 class="display-3">Incluir CSS</h2>
+			<p>
+				Opciones para incluir CSS en un documento HTML.
+				<ul>
+					<li>Incluir CSS en el mismo documento HTML</li>
+					<li>Definir CSS en un archivo externo</li>
+					<li>Incluir CSS en los elementos HTML</li>
+				</ul>
+			</p>
+			<p>
+				Un archivo CSS puede contener un número ilimitado de reglas CSS, cada regla se puede aplicar a varios selectores diferentes y cada declaración puede incluir tantos pares propiedad/valor como se desee.
+			</p>
+			<p>
+				El estándar CSS 2.1 define 115 propiedades, cada una con su propia lista de valores permitidos. Por su parte, los últimos borradores del estándar CSS 3 ya incluyen 239 propiedades.
+			</p>
+		</section>
+		<section>
+			<h2 class="display-3">Modelo de cajas</h2>
+			<p><img src="http://zonatic.net/codigo/_data/_fundamentos/css/caja.png"><img src="http://www.cristalab.com/images/tutos/modelocaja/modelodecaja.jpg"></p>
+		</section>
+		<section>
+			<h2 class="display-3">Media CSS</h2>
+			<p>
+				<pre>
+			@media print {
+			  body { font-size: 10pt }
+			}
+			@media screen {
+			  body { font-size: 13px }
+			}
+			@media screen, print {
+			  body { line-height: 1.2 }
+			}	
+				</pre>
+			</p>
+			<p>
+				<pre>
+			@import url("estilos_basicos.css") screen;
+			@import url("estilos_impresora.css") print;	
+				</pre>
+			</p>
+			<p>
+
+			&lt; link rel="stylesheet" type="text/css" media="screen" href="basico.css" /&gt;<br>
+			&lt;link rel="stylesheet" type="text/css" media="print, handheld" href="especial.css" /&gt;	
+
+
+				
+			</p>
+		</section>
+		<section>
+			<h2 class="display-3">Selectores CSS</h2>
+			<p>
+				<ul>
+					<li>Selector universal</li>
+					<li>Selector de tipo o etiqueta</li>
+					<li>Selector descendente</li>
+					<li>Selector de clase</li>
+					<li>Selectores de ID</li>
+				</ul>
+			</p>
+		</section>
+		<section></section>
+	</div>
+
+
+	<script type="text/javascript" src="js/bootstrap.js" ></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+</body>
+</html>
